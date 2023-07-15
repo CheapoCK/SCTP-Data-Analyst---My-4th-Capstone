@@ -43,11 +43,10 @@ If a patient's age surpasses 89, their age is recorded as "90."
 ![](https://i.imgur.com/GF6tZ5e.jpg)
 Note: Correlation value between -1 and 1. <br>
 There is multicollinearity between :
-- 'TB' and 'DB' is 0.98.
+- 'TB' and 'DB' is 0.98. <br> Drop DB, and keep TB, as multicollinearity is above 0.85.
 - 'Sgpt' and 'Sgot' is 0.84.
 - 'TP' and 'Albumin' is 0.80.
 - 'ALB' and 'AG_Ratio' is 0.75
-Drop DB, and keep TB, as multicollinearity is above 0.85.
 <br>
 
 ### 5. Running the classifier
